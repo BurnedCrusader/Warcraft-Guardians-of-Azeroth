@@ -25,24 +25,28 @@ deathwing = {
 #Dwarves
 madoran = {
 	combat_rating = 5
-	monthly_character_prestige = 0.2
-	build_time_modifier = -0.05	
+	monthly_character_prestige = 0.1
+	command_modifier = {
+		morale_defence = 0.05
+	}
 	bronzebeard_opinion = 10
 	wildhammer_opinion = 5
 	dark_iron_opinion = -10	
+	bloodline_effect_warrior_training = 1
 	
 	inheritance = patrilineal
 	allow_bastards = yes
-	picture = GFX_bloodlines_placeholder_symbol_2
+	picture = GFX_bloodlines_symbol_war
 	flags = { historical_bloodline }
 }
 khardros = {
 	combat_rating = 5
 	monthly_character_prestige = 0.1
-	levy_reinforce_rate = 0.02
+	build_cost_modifier = -0.05
 	bronzebeard_opinion = 5
 	wildhammer_opinion = 10
 	dark_iron_opinion = -10	
+	bloodline_effect_hunter_training = 1
 
 	inheritance = patrilineal
 	allow_bastards = yes
@@ -52,15 +56,17 @@ khardros = {
 thaurissan = {
 	combat_rating = 5
 	monthly_character_piety = 0.1	
-	tech_growth_modifier_military = 0.01
+	command_modifier = {
+		siege_speed = 0.05
+	}
 	bronzebeard_opinion = -10
 	wildhammer_opinion = -10
-	dark_iron_opinion = 5	
-	fire_cult_opinion = 5
+	fire_cult_opinion = 10
+	bloodline_effect_mage_training = 1
 
 	inheritance = patrilineal
 	allow_bastards = yes
-	picture = GFX_bloodlines_placeholder_symbol_2
+	picture = GFX_bloodlines_symbol_murder_war
 	flags = { historical_bloodline }
 }
 modimus = {
