@@ -63,6 +63,19 @@ thaurissan = {
 	picture = GFX_bloodlines_placeholder_symbol_2
 	flags = { historical_bloodline }
 }
+modimus = {
+	combat_rating = 5
+	monthly_character_prestige = 0.2
+	monthly_character_piety = 0.1
+	global_revolt_risk = -0.01
+	dwarf_group_opinion = 10
+	bloodline_effect_warrior_training = 1
+	
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_peace
+	flags = { historical_bloodline }
+}
 #Humans
 barathen = {
 	combat_rating = 5
